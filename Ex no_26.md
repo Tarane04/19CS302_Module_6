@@ -1,15 +1,17 @@
-EX 26 C program demonstrating a self-referential structure where an employee has a pointer to their manager.
-DATE:
-AIM:
+# EX 26 C program demonstrating a self-referential structure where an employee has a pointer to their manager.
+## DATE:
+## AIM:
 To write a C program to demonstrate a self-referential structure where an employee has a pointer to their manager.
 
-Algorithm
-Start.
-Create a structure and data member using pointer.
-Prompt the user to enter a value.
-Print the structure values.
-End
-Program:
+## Algorithm
+1. Start.
+2. Create a structure and data member using pointer.
+3. Prompt the user to enter a value.
+4. Print the structure values.
+5. End  
+
+## Program:
+```
 /*
 C program demonstrating a self-referential structure where an employee has a pointer to their manager.
 Developed by: Tarane G
@@ -45,8 +47,11 @@ NULL) ? "None" : emp1->manager->name);
  return 0;
 }
 
-Output:
-image
+```
 
-Result:
+## Output:
+
+![image](https://github.com/user-attachments/assets/ebf6b04a-a2a3-475e-b836-264a97223610)
+
+## Result:
 Thus the program was executed and the output was verified successfully.
